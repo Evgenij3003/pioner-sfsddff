@@ -229,7 +229,7 @@ let _slideToggle = (target, duration = 500) => {
 
 /*==========================================================================================================================================================================*/
 /* Обработка события "клик" на документе */
-document.addEventListener("click", documentActions);									
+// document.addEventListener("click", documentActions);									
 
 function documentActions(e) {																	
     const targetElement = e.target;
