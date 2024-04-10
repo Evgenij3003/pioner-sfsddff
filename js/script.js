@@ -2847,9 +2847,9 @@ function toggleFormElem(elem) {
         const openElements = document.querySelectorAll(".open");
         removeClassNames(openElements, "open");
         elem.classList.add("open");
-        // if (window.innerWidth < 479.98) {
-        //     document.querySelector(".footer").classList.add("hide");
-        // }
+        if (window.innerWidth < 479.98) {
+            document.querySelector(".footer").classList.add("hide");
+        }
         if (!elem.classList.contains("calendar") && window.innerWidth < 479.98) {
             document.body.classList.add("_lock");
         }

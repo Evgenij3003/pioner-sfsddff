@@ -965,7 +965,7 @@ input:checked + .radio-duration__content {
   transition: opacity 0.35s ease 0.05s, top 0.4s ease, transform 0.4s ease, -webkit-transform 0.4s ease;
 }
 @media (max-width: 29.99875em) {
-  .times-rent,
+.times-rent,
 .duration-rent,
 .promocode-rent {
     position: fixed;
