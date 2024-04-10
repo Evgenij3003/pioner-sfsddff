@@ -244,11 +244,11 @@ function documentActions(e) {
         removeClassNames(openElements, "open");
         document.body.classList.remove("_lock");
 
-        if (window.innerWidth < 479.98) {
-            setTimeout(() => {
-                document.querySelector(".footer").classList.remove("hide");
-            }, 600);
-        }
+        // if (window.innerWidth < 479.98) {
+        //     setTimeout(() => {
+        //         document.querySelector(".footer").classList.remove("hide");
+        //     }, 600);
+        // }
     }
 
     if (document.querySelector(".popup-message.popup-open") && !e.target.closest("[data-popup] [class*='__content']")) {
@@ -390,9 +390,9 @@ function lockBody(fixedElements, delay, scroller) {
         body.classList.add("_lock");
         lockStatus = true;
         (!document.querySelector("._touch") && scroller) ? scrollBarLockToggle() : null;
-        setTimeout(function () {
-            lockStatus = false;
-        }, delay);
+        // setTimeout(function () {
+        //     lockStatus = false;
+        // }, delay);
     }
 }
 
@@ -402,17 +402,17 @@ function unlockBody(fixedElements, delay, scroller) {
     let body = document.querySelector("body");
     if (!lockStatus) {
         lockStatus = true;
-        setTimeout(() => {
-            if (fixedElements) {
-                fixedElements.forEach(fixedElement => {
-                    fixedElement.style.paddingRight = "0px";
-                });
-            }
-            body.style.paddingRight = "0px";
-            body.classList.remove("_lock");
-            lockStatus = false;
-            (!document.querySelector("._touch") && scroller) ? scrollBarLockToggle(true) : null;
-        }, delay);
+        // setTimeout(() => {
+        //     if (fixedElements) {
+        //         fixedElements.forEach(fixedElement => {
+        //             fixedElement.style.paddingRight = "0px";
+        //         });
+        //     }
+        //     body.style.paddingRight = "0px";
+        //     body.classList.remove("_lock");
+        //     lockStatus = false;
+        //     (!document.querySelector("._touch") && scroller) ? scrollBarLockToggle(true) : null;
+        // }, delay);
     }
 }
 
@@ -2053,9 +2053,9 @@ class CheckboxSwitch {
         // Блокировка "клика" на элемент во время анимации переключения switch:
         this.switchNode.value === "off" ? this.switchNode.value = "on" : this.switchNode.value = "off";
         this.switchElement.classList.add("lock");
-        setTimeout(() => {
-            this.switchElement.classList.remove("lock");
-        }, this.timeout);
+        // setTimeout(() => {
+        //     this.switchElement.classList.remove("lock");
+        // }, this.timeout);
     }
 
     onFocus(event) {
@@ -2511,9 +2511,9 @@ function closeElement(block, inputLabel, textElem, errorElem) {
     textElem.removeAttribute("hidden");
     errorElem.setAttribute("hidden", "");
     if (window.innerWidth < 479.98) {
-        setTimeout(() => {
-            document.querySelector(".footer").classList.remove("hide");
-        }, 600);
+        // setTimeout(() => {
+        //     document.querySelector(".footer").classList.remove("hide");
+        // }, 600);
     }
 }
 
@@ -2637,9 +2637,9 @@ if (document.querySelector("[data-close-elem]") && window.innerWidth < 479.98) {
             document.body.classList.remove("_lock");
 
             if (window.innerWidth < 479.98) {
-                setTimeout(() => {
-                    document.querySelector(".footer").classList.remove("hide");
-                }, 600);
+                // setTimeout(() => {
+                //     document.querySelector(".footer").classList.remove("hide");
+                // }, 600);
             }
         });
     });
@@ -2855,9 +2855,9 @@ function toggleFormElem(elem) {
         }
     } else {
         elem.classList.remove("open");
-        setTimeout(() => {
-            document.querySelector(".footer").classList.remove("hide");
-        }, 600);
+        // setTimeout(() => {
+        //     document.querySelector(".footer").classList.remove("hide");
+        // }, 600);
         if (!elem.classList.contains("calendar") && window.innerWidth < 479.98) {
             document.body.classList.remove("_lock");
         }
