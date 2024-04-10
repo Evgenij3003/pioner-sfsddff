@@ -1852,10 +1852,10 @@ function initTabs() {
         const tabsCafe = document.querySelector(".tabs-cafe");
         new Tabs(tabsCafe, {});
     }
-    if (document.querySelector(".tabs-about")) {
-        const tabsAbout = document.querySelector(".tabs-about");
-        new Tabs(tabsAbout, {});
-    }
+    // if (document.querySelector(".tabs-about")) {
+    //     const tabsAbout = document.querySelector(".tabs-about");
+    //     new Tabs(tabsAbout, {});
+    // }
     if (document.querySelector(".tabs-events")) {
         const tabsEvents = document.querySelector(".tabs-events");
         new Tabs(tabsEvents, {});
