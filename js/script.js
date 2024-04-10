@@ -229,19 +229,17 @@ let _slideToggle = (target, duration = 500) => {
 
 /*==========================================================================================================================================================================*/
 /* Обработка события "клик" на документе */
-// document.addEventListener("click", documentActions);									
+document.addEventListener("click", documentActions);									
 
 function documentActions(e) {																	
     const targetElement = e.target;
+    e.preventDefault();
 
     if (targetElement.closest(".dragging")) {
-        console.log("dragging");
-        e.preventDefault();
         return false;
     }
 
     if (document.querySelector(".open") && !targetElement.closest(".open")) {
-        console.log("open");
         const openElements = document.querySelectorAll(".open");
         removeClassNames(openElements, "open");
         document.body.classList.remove("_lock");
