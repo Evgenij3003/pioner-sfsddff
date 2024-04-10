@@ -233,9 +233,9 @@ document.addEventListener("click", documentActions);
 
 function documentActions(e) {																	
     const targetElement = e.target;
-    e.preventDefault();
-
+    
     if (targetElement.closest(".dragging")) {
+        e.preventDefault();
         return false;
     }
 
