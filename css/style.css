@@ -1144,182 +1144,182 @@ input:checked + .radio-duration__content {
 /* Animations */
 @-webkit-keyframes moving_line-forward {
   0% {
-    -webkit-transform: translateX(-16.333%);
-            transform: translateX(-16.333%);
+    -webkit-transform: translate3d(-16.333%, 0, 0);
+            transform: translate3d(-16.333%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-49.666%);
-            transform: translateX(-49.666%);
+    -webkit-transform: translate3d(-49.666%, 0, 0);
+            transform: translate3d(-49.666%, 0, 0);
   }
 }
 @keyframes moving_line-forward {
   0% {
-    -webkit-transform: translateX(-16.333%);
-            transform: translateX(-16.333%);
+    -webkit-transform: translate3d(-16.333%, 0, 0);
+            transform: translate3d(-16.333%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-49.666%);
-            transform: translateX(-49.666%);
+    -webkit-transform: translate3d(-49.666%, 0, 0);
+            transform: translate3d(-49.666%, 0, 0);
   }
 }
 @-webkit-keyframes moving_line-forward-1 {
   0% {
-    -webkit-transform: translateX(-25%);
-            transform: translateX(-25%);
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
   }
 }
 @keyframes moving_line-forward-1 {
   0% {
-    -webkit-transform: translateX(-25%);
-            transform: translateX(-25%);
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
   }
 }
 @-webkit-keyframes moving_line-forward-2 {
   0% {
-    -webkit-transform: translateX(-20%);
-            transform: translateX(-20%);
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-40%);
-            transform: translateX(-40%);
+    -webkit-transform: translate3d(-40%, 0, 0);
+            transform: translate3d(-40%, 0, 0);
   }
 }
 @keyframes moving_line-forward-2 {
   0% {
-    -webkit-transform: translateX(-20%);
-            transform: translateX(-20%);
+    -webkit-transform: translate3d(-20%, 0, 0);
+            transform: translate3d(-20%, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-40%);
-            transform: translateX(-40%);
+    -webkit-transform: translate3d(-40%, 0, 0);
+            transform: translate3d(-40%, 0, 0);
   }
 }
 @-webkit-keyframes moving_line-down {
   0% {
-    -webkit-transform: translateY(-33.333%);
-            transform: translateY(-33.333%);
+    -webkit-transform: translate3d(0, -33.333%, 0);
+            transform: translate3d(0, -33.333%, 0);
   }
   100% {
-    -webkit-transform: translateY(-66.666%);
-            transform: translateY(-66.666%);
+    -webkit-transform: translate3d(0, -66.666%, 0);
+            transform: translate3d(0, -66.666%, 0);
   }
 }
 @keyframes moving_line-down {
   0% {
-    -webkit-transform: translateY(-33.333%);
-            transform: translateY(-33.333%);
+    -webkit-transform: translate3d(0, -33.333%, 0);
+            transform: translate3d(0, -33.333%, 0);
   }
   100% {
-    -webkit-transform: translateY(-66.666%);
-            transform: translateY(-66.666%);
+    -webkit-transform: translate3d(0, -66.666%, 0);
+            transform: translate3d(0, -66.666%, 0);
   }
 }
 @-webkit-keyframes moving_line-down-1 {
   0% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translate3d(0, -25%, 0);
+            transform: translate3d(0, -25%, 0);
   }
   100% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
   }
 }
 @keyframes moving_line-down-1 {
   0% {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    -webkit-transform: translate3d(0, -25%, 0);
+            transform: translate3d(0, -25%, 0);
   }
   100% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
   }
 }
 @-webkit-keyframes moving_line-down-2 {
   0% {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
+    -webkit-transform: translate3d(0, -20%, 0);
+            transform: translate3d(0, -20%, 0);
   }
   100% {
-    -webkit-transform: translateY(-40%);
-            transform: translateY(-40%);
+    -webkit-transform: translate3d(0, -40%, 0);
+            transform: translate3d(0, -40%, 0);
   }
 }
 @keyframes moving_line-down-2 {
   0% {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
+    -webkit-transform: translate3d(0, -20%, 0);
+            transform: translate3d(0, -20%, 0);
   }
   100% {
-    -webkit-transform: translateY(-40%);
-            transform: translateY(-40%);
+    -webkit-transform: translate3d(0, -40%, 0);
+            transform: translate3d(0, -40%, 0);
   }
 }
 @-webkit-keyframes moving_line-up {
   0% {
-    -webkit-transform: translateY(-87.333%);
-            transform: translateY(-87.333%);
+    -webkit-transform: translate3d(0, -87.333%, 0);
+            transform: translate3d(0, -87.333%, 0);
   }
   100% {
-    -webkit-transform: translateY(-54%);
-            transform: translateY(-54%);
+    -webkit-transform: translate3d(0, -54%, 0);
+            transform: translate3d(0, -54%, 0);
   }
 }
 @keyframes moving_line-up {
   0% {
-    -webkit-transform: translateY(-87.333%);
-            transform: translateY(-87.333%);
+    -webkit-transform: translate3d(0, -87.333%, 0);
+            transform: translate3d(0, -87.333%, 0);
   }
   100% {
-    -webkit-transform: translateY(-54%);
-            transform: translateY(-54%);
+    -webkit-transform: translateY(0, -54%, 0);
+            transform: translateY(0, -54%, 0);
   }
 }
 @-webkit-keyframes moving_line-up-1 {
   0% {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    -webkit-transform: translate3d(0, -80%, 0);
+            transform: translate3d(0, -80%, 0);
   }
   100% {
-    -webkit-transform: translateY(-55%);
-            transform: translateY(-55%);
+    -webkit-transform: translate3d(0, -55%, 0);
+            transform: translate3d(0, -55%, 0);
   }
 }
 @keyframes moving_line-up-1 {
   0% {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    -webkit-transform: translate3d(0, -80%, 0);
+            transform: translate3d(0, -80%, 0);
   }
   100% {
-    -webkit-transform: translateY(-55%);
-            transform: translateY(-55%);
+    -webkit-transform: translate3d(0, -55%, 0);
+            transform: translate3d(0, -55%, 0);
   }
 }
 @-webkit-keyframes moving_line-up-2 {
   0% {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    -webkit-transform: translate3d(0, -80%, 0);
+            transform: translate3d(0, -80%, 0);
   }
   100% {
-    -webkit-transform: translateY(-60%);
-            transform: translateY(-60%);
+    -webkit-transform: translate3d(0, -60%, 0);
+            transform: translate3d(0, -60%, 0);
   }
 }
 @keyframes moving_line-up-2 {
   0% {
-    -webkit-transform: translateY(-80%);
-            transform: translateY(-80%);
+    -webkit-transform: translate3d(0, -80%, 0);
+            transform: translate3d(0, -80%, 0);
   }
   100% {
-    -webkit-transform: translateY(-60%);
-            transform: translateY(-60%);
+    -webkit-transform: translate3d(0, -60%, 0);
+            transform: translate3d(0, -60%, 0);
   }
 }
 /*==========================================================================================================================================================================*/
@@ -2646,9 +2646,9 @@ span.success span {
   background-color: #ee1e7a;
 }
 .switch input:checked ~ .switch__state::before {
-  -webkit-transform: translateX(0.75rem);
-      -ms-transform: translateX(0.75rem);
-          transform: translateX(0.75rem);
+  -webkit-transform: translate3d(0.75rem, 0, 0);
+      -ms-transform: translate3d(0.75rem, 0, 0);
+          transform: translate3d(0.75rem, 0, 0);
 }
 
 /*==========================================================================================================================================================================*/
