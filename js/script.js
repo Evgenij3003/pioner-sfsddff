@@ -2546,8 +2546,8 @@ if (document.querySelector("[data-agreement]")) {
                 lockForm ? toggleInputError(checkboxAgreement, "agreement", true) : validateFormState.agreement = false;
             }
         }
-        console.log(validateFormState);
-        console.log("formError:" + formError);
+        // console.log(validateFormState);
+        // console.log("formError:" + formError);
     });
 }
 
