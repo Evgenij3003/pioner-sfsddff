@@ -172,6 +172,14 @@ textarea {
   appearance: none;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus, 
+  textarea:focus, 
+  input:focus {
+        font-size: 1rem;
+    }
+}
+
 button {
   color: inherit;
   background-color: inherit;
