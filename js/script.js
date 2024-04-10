@@ -820,11 +820,11 @@ function closeElement(block, inputLabel, textElem, errorElem) {
     inputLabel.classList.add("hide");
     textElem.removeAttribute("hidden");
     errorElem.setAttribute("hidden", "");
-    if (window.innerWidth < 479.98) {
-        setTimeout(() => {
-            document.querySelector(".footer").classList.remove("hide");
-        }, 400);
-    }
+    // if (window.innerWidth < 479.98) {
+    //     setTimeout(() => {
+    //         document.querySelector(".footer").classList.remove("hide");
+    //     }, 400);
+    // }
 }
 
 
@@ -946,11 +946,11 @@ if (document.querySelector("[data-close-elem]") && window.innerWidth < 479.98) {
             formElem.classList.remove("open");
             document.body.classList.remove("_lock");
 
-            if (window.innerWidth < 479.98) {
-                setTimeout(() => {
-                    document.querySelector(".footer").classList.remove("hide");
-                }, 400);
-            }
+            // if (window.innerWidth < 479.98) {
+            //     setTimeout(() => {
+            //         document.querySelector(".footer").classList.remove("hide");
+            //     }, 400);
+            // }
         });
     });
 }
@@ -1157,17 +1157,17 @@ function toggleFormElem(elem) {
         const openElements = document.querySelectorAll(".open");
         removeClassNames(openElements, "open");
         elem.classList.add("open");
-        if (window.innerWidth < 479.98) {
-            document.querySelector(".footer").classList.add("hide");
-        }
+        // if (window.innerWidth < 479.98) {
+        //     document.querySelector(".footer").classList.add("hide");
+        // }
         if (!elem.classList.contains("calendar") && window.innerWidth < 479.98) {
             document.body.classList.add("_lock");
         }
     } else {
         elem.classList.remove("open");
-        setTimeout(() => {
-            document.querySelector(".footer").classList.remove("hide");
-        }, 400);
+        // setTimeout(() => {
+        //     document.querySelector(".footer").classList.remove("hide");
+        // }, 400);
         if (!elem.classList.contains("calendar") && window.innerWidth < 479.98) {
             document.body.classList.remove("_lock");
         }
