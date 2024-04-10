@@ -113,18 +113,18 @@ let popupMessage, popupCloseButton;
 
 /*==========================================================================================================================================================================*/
 /* Вычисление высот элементов форм */
-if (document.querySelector(".rent-hall") && window.innerWidth < 479.98) {
-    getHeightElements();
-}
+// if (document.querySelector(".rent-hall") && window.innerWidth < 479.98) {
+//     getHeightElements();
+// }
 
-function getHeightElements() {
-    const timeBlock = document.querySelector(".times-rent");
-    const durationVariantsBlock = document.querySelector(".duration-rent");
-    const promocodeFormElem = document.querySelector(".promocode-rent");
-    timeBlock.style.setProperty("--height", `${timeBlock.offsetHeight / 16}rem`);
-    durationVariantsBlock.style.setProperty("--height", `${durationVariantsBlock.offsetHeight / 16}rem`);
-    promocodeFormElem.style.setProperty("--height", `${promocodeFormElem.offsetHeight / 16}rem`);
-}
+// function getHeightElements() {
+//     const timeBlock = document.querySelector(".times-rent");
+//     const durationVariantsBlock = document.querySelector(".duration-rent");
+//     const promocodeFormElem = document.querySelector(".promocode-rent");
+//     timeBlock.style.setProperty("--height", `${timeBlock.offsetHeight / 16}rem`);
+//     durationVariantsBlock.style.setProperty("--height", `${durationVariantsBlock.offsetHeight / 16}rem`);
+//     promocodeFormElem.style.setProperty("--height", `${promocodeFormElem.offsetHeight / 16}rem`);
+// }
 
 
 
