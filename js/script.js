@@ -247,7 +247,7 @@ function documentActions(e) {
         if (window.innerWidth < 479.98) {
             setTimeout(() => {
                 document.querySelector(".footer").classList.remove("hide");
-            }, 400);
+            }, 600);
         }
     }
 
@@ -2043,7 +2043,7 @@ class CheckboxSwitch {
     constructor(domNode) {
         this.switchNode = domNode;
         this.switchElement = this.switchNode.closest(".switch");
-        this.timeout = 500;
+        this.timeout = 600;
         this.switchNode.addEventListener("change", () => this.onChange());
         this.switchNode.addEventListener("focus", () => this.onFocus(event));
         this.switchNode.addEventListener("blur", () => this.onBlur(event));
@@ -2513,7 +2513,7 @@ function closeElement(block, inputLabel, textElem, errorElem) {
     if (window.innerWidth < 479.98) {
         setTimeout(() => {
             document.querySelector(".footer").classList.remove("hide");
-        }, 400);
+        }, 600);
     }
 }
 
@@ -2564,11 +2564,11 @@ function focusInput() {
                 input.parentElement.classList.add("input-focus");
             });
             input.addEventListener("blur", function(e) {
-                setTimeout(() => {
-                    if (!e.target.value) {
-                        input.parentElement.classList.remove("input-focus");
-                    }
-                }, 100);
+                // setTimeout(() => {
+                //     if (!e.target.value) {
+                //         input.parentElement.classList.remove("input-focus");
+                //     }
+                // }, 100);
             });
         });
     }
@@ -2639,7 +2639,7 @@ if (document.querySelector("[data-close-elem]") && window.innerWidth < 479.98) {
             if (window.innerWidth < 479.98) {
                 setTimeout(() => {
                     document.querySelector(".footer").classList.remove("hide");
-                }, 400);
+                }, 600);
             }
         });
     });
@@ -2857,7 +2857,7 @@ function toggleFormElem(elem) {
         elem.classList.remove("open");
         setTimeout(() => {
             document.querySelector(".footer").classList.remove("hide");
-        }, 400);
+        }, 600);
         if (!elem.classList.contains("calendar") && window.innerWidth < 479.98) {
             document.body.classList.remove("_lock");
         }
