@@ -235,16 +235,18 @@ function documentActions(e) {
     const targetElement = e.target;
 
     if (targetElement.closest(".dragging")) {
+        console.log("dragging");
         e.preventDefault();
         return false;
     }
 
     if (document.querySelector(".open") && !targetElement.closest(".open")) {
+        console.log("open");
         const openElements = document.querySelectorAll(".open");
         removeClassNames(openElements, "open");
         document.body.classList.remove("_lock");
 
-        if (window.innerWidth < 479.98) {
+        if (window.innerWidth < 479.98 && document.querySelector(".footer").classList.contains("hide")) {
             setTimeout(() => {
                 document.querySelector(".footer").classList.remove("hide");
             }, 400);
@@ -252,7 +254,6 @@ function documentActions(e) {
     }
 
     if (document.querySelector(".popup-message.popup-open") && !e.target.closest("[data-popup] [class*='__content']")) {
-        console.log(7);
         closePopup(popupMessage);
     }
 };
